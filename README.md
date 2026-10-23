@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Alex</h1>
 <h3 align="center">A passionate student coding misc projects in his free time!</h3>
 
-- 🔭 I’m currently working on [clubkit])(https://github.com/7shep/clubkit)
+- 🔭 I’m currently working on [clubkit](https://github.com/7shep/clubkit)
 
 - 👯 I’m looking to collaborate on **anything!**
 
