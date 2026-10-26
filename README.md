@@ -8,6 +8,7 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Oct 26** · This week I started clubkit, an agent-first monorepo for running a student club, and added a club config, an integration contract with live, fake and dry-run modes, and an outbox where nothing sends until an exec approves it. I also wrote evals that check whether agents do better with clubkit than without it. In newbrain, Brain's agents now draft LinkedIn posts and read Gmail for internship replies. I also fixed a sync bug where one uncommitted daily list blocked every pull.
 <!-- devlog-posts:end -->
 
 <details>
