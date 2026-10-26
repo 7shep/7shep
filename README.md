@@ -1,11 +1,72 @@
 <h1 align="center">Hi, I'm Alex</h1>
 <h3 align="center">A passionate student coding misc projects in his free time!</h3>
 
-- 🔭 I’m currently working on [clubkit](https://github.com/7shep/clubkit)
-
 - 👯 I’m looking to collaborate on **anything!**
 
 - 👨‍💻 All of my projects are available at [https://alexshepherd.dev](https://alexshepherd.dev)
+
+## 📓 Dev log
+
+<!-- devlog-posts:start -->
+<!-- devlog-posts:end -->
+
+<details>
+<summary>Every commit, last two weeks</summary>
+
+<!-- devlog:start -->
+#### Mon, Oct 26
+**[newbrain](https://github.com/7shep/newbrain)**
+- Give every comment target a working link <sub>`linkedin`</sub>
+
+#### Sun, Oct 25
+**[newbrain](https://github.com/7shep/newbrain)**
+- Prep LinkedIn drafts posts, comments and profile edits <sub>`agents`</sub>
+- Commit what each agent run changed in the notes <sub>`agents`</sub>
+- A clubkit tile and clubkit's MCP tools for Brain's agents <sub>`clubkit`</sub>
+- Line up role columns next to reply chips <sub>`internships`</sub>
+- <sub>[+4 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
+
+**[clubkit](https://github.com/7shep/clubkit)**
+- Add the integration contract: adapters with live, fake, and dry-run modes
+- Add club config: schema, manifest checks, and CLI wiring
+- Reorder TODOS around non-technical execs
+
+#### Fri, Oct 23
+**[clubkit](https://github.com/7shep/clubkit)**
+- Drafts, exec approval, and send-once email, with close-recruitment <sub>`outbox`</sub>
+- Reference agent skips only guidance the baseline workspace lacks <sub>`evals`</sub>
+
+#### Thu, Oct 22
+**[newbrain](https://github.com/7shep/newbrain)**
+- Lock the theme picker to Pride <sub>`theme`</sub>
+- Add a Pride theme family and make it the default <sub>`theme`</sub>
+- Pull every minute in the background so phone agent tasks start with no tab open <sub>`sync`</sub>
+- Run internships button for a headless apply-internships run <sub>`agents`</sub>
+- <sub>[+3 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
+
+**[clubkit](https://github.com/7shep/clubkit)**
+- Add seven hard tasks with traps the code or guidance warns about <sub>`evals`</sub>
+- Repair the scope checker's acceptance-criteria pattern <sub>`evals`</sub>
+- Stop scope and RSVP checks rejecting correct work <sub>`evals`</sub>
+- Grow the task set to 16, including hand-out-work scope tasks <sub>`evals`</sub>
+- <sub>[+5 more](https://github.com/7shep/clubkit/commits?author=7shep)</sub>
+
+#### Wed, Oct 21
+**[newbrain](https://github.com/7shep/newbrain)**
+- Remove the /study tutoring skill
+- Write planner fixtures as UTF-8 so Windows CI passes <sub>`tests`</sub>
+- Answer voice questions on the Claude plan via claude -p <sub>`phone`</sub>
+- Switch Brain from Codex back to Claude Code
+- <sub>[+4 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
+
+#### Tue, Oct 20
+**[newbrain](https://github.com/7shep/newbrain)**
+- Make wild discovery portable on Windows <sub>`skills`</sub>
+
+<sub>Auto-written from my public commits · updated Oct 26, 2026</sub>
+<!-- devlog:end -->
+
+</details>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
