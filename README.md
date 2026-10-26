@@ -16,6 +16,7 @@
 <!-- devlog:start -->
 #### Mon, Oct 26
 **[newbrain](https://github.com/7shep/newbrain)**
+- Morning dev log post on the GitHub profile README <sub>`agents`</sub>
 - Give every comment target a working link <sub>`linkedin`</sub>
 
 #### Sun, Oct 25
