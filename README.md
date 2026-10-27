@@ -8,6 +8,8 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Oct 27** · Yesterday's commits were mostly newbrain. I replaced the Pride theme with a liquid-glass one and made it the default. Brain's agents also got a clubkit tile with its MCP tools, and every LinkedIn comment target now has a working link. Agent runs now commit whatever they changed in the notes, which means I can see what each run did. I also made a stale-token 403 explain itself instead of just saying "forbidden".
+
 **Oct 26** · This week I started clubkit, an agent-first monorepo for running a student club, and added a club config, an integration contract with live, fake and dry-run modes, and an outbox where nothing sends until an exec approves it. I also wrote evals that check whether agents do better with clubkit than without it. In newbrain, Brain's agents now draft LinkedIn posts and read Gmail for internship replies. I also fixed a sync bug where one uncommitted daily list blocked every pull.
 <!-- devlog-posts:end -->
 
