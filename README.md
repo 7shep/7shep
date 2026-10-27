@@ -17,6 +17,11 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Tue, Oct 27
+**[dfa-drawing](https://github.com/7shep/dfa-drawing)**
+- NFA mode: branching brushes, ε-moves, and subset construction
+- DFA drawing: automaton art from strings
+
 #### Mon, Oct 26
 **[newbrain](https://github.com/7shep/newbrain)**
 - Morning dev log post on the GitHub profile README <sub>`agents`</sub>
@@ -63,11 +68,7 @@
 - Switch Brain from Codex back to Claude Code
 - <sub>[+4 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
 
-#### Tue, Oct 20
-**[newbrain](https://github.com/7shep/newbrain)**
-- Make wild discovery portable on Windows <sub>`skills`</sub>
-
-<sub>Auto-written from my public commits · updated Oct 26, 2026</sub>
+<sub>Auto-written from my public commits · updated Oct 27, 2026</sub>
 <!-- devlog:end -->
 
 </details>
