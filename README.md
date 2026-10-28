@@ -19,6 +19,20 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Wed, Oct 28
+**[voice-controls](https://github.com/7shep/voice-controls)**
+- Reopen the mic when it stops sending audio
+- Run voice requests as headless agents instead of background sessions
+- Catch "Hey Claude" mid-conversation
+- Add MIT license
+- <sub>[+3 more](https://github.com/7shep/voice-controls/commits?author=7shep)</sub>
+
+**[newbrain](https://github.com/7shep/newbrain)**
+- Voice controls run headless agents
+- Point voice-controls at Brain through its config.json
+- Voice controls start background agents
+- Ignore voice-controls/ checkout and document it in README
+
 #### Tue, Oct 27
 **[dfa-drawing](https://github.com/7shep/dfa-drawing)**
 - NFA mode: branching brushes, ε-moves, and subset construction
@@ -62,15 +76,7 @@
 - Grow the task set to 16, including hand-out-work scope tasks <sub>`evals`</sub>
 - <sub>[+5 more](https://github.com/7shep/clubkit/commits?author=7shep)</sub>
 
-#### Wed, Oct 21
-**[newbrain](https://github.com/7shep/newbrain)**
-- Remove the /study tutoring skill
-- Write planner fixtures as UTF-8 so Windows CI passes <sub>`tests`</sub>
-- Answer voice questions on the Claude plan via claude -p <sub>`phone`</sub>
-- Switch Brain from Codex back to Claude Code
-- <sub>[+4 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Oct 27, 2026</sub>
+<sub>Auto-written from my public commits · updated Oct 28, 2026</sub>
 <!-- devlog:end -->
 
 </details>
