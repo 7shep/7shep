@@ -19,19 +19,23 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Thu, Oct 29
+**[newbrain](https://github.com/7shep/newbrain)**
+- Stop a second server sharing port 4747 on Windows <sub>`server`</sub>
+
 #### Wed, Oct 28
+**[newbrain](https://github.com/7shep/newbrain)**
+- Voice controls run headless agents
+- Point voice-controls at Brain through its config.json
+- Voice controls start background agents
+- Ignore voice-controls/ checkout and document it in README
+
 **[voice-controls](https://github.com/7shep/voice-controls)**
 - Reopen the mic when it stops sending audio
 - Run voice requests as headless agents instead of background sessions
 - Catch "Hey Claude" mid-conversation
 - Add MIT license
 - <sub>[+3 more](https://github.com/7shep/voice-controls/commits?author=7shep)</sub>
-
-**[newbrain](https://github.com/7shep/newbrain)**
-- Voice controls run headless agents
-- Point voice-controls at Brain through its config.json
-- Voice controls start background agents
-- Ignore voice-controls/ checkout and document it in README
 
 #### Tue, Oct 27
 **[dfa-drawing](https://github.com/7shep/dfa-drawing)**
@@ -61,22 +65,7 @@
 - Drafts, exec approval, and send-once email, with close-recruitment <sub>`outbox`</sub>
 - Reference agent skips only guidance the baseline workspace lacks <sub>`evals`</sub>
 
-#### Thu, Oct 22
-**[newbrain](https://github.com/7shep/newbrain)**
-- Lock the theme picker to Pride <sub>`theme`</sub>
-- Add a Pride theme family and make it the default <sub>`theme`</sub>
-- Pull every minute in the background so phone agent tasks start with no tab open <sub>`sync`</sub>
-- Run internships button for a headless apply-internships run <sub>`agents`</sub>
-- <sub>[+3 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
-
-**[clubkit](https://github.com/7shep/clubkit)**
-- Add seven hard tasks with traps the code or guidance warns about <sub>`evals`</sub>
-- Repair the scope checker's acceptance-criteria pattern <sub>`evals`</sub>
-- Stop scope and RSVP checks rejecting correct work <sub>`evals`</sub>
-- Grow the task set to 16, including hand-out-work scope tasks <sub>`evals`</sub>
-- <sub>[+5 more](https://github.com/7shep/clubkit/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Oct 28, 2026</sub>
+<sub>Auto-written from my public commits · updated Oct 29, 2026</sub>
 <!-- devlog:end -->
 
 </details>
