@@ -8,11 +8,11 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Oct 29** · Yesterday I built voice-controls, where saying "Hey Claude" sends a request to my Brain inbox or to claude -p. Requests now run as headless agents instead of background sessions, and it catches the wake phrase mid-conversation and reopens the mic when it stops sending audio. I also made it standalone, so Brain is now an optional integration, and added an MIT license. In newbrain, the README now documents how voice-controls hooks in.
+
 **Oct 28** · Yesterday I worked on dfa-drawing, a tool that turns strings into automaton art. First came the DFA version, which draws from a string. Then I added an NFA mode with branching brushes and ε-moves, plus subset construction to convert it back to a DFA. The NFA mode matters because a drawing can now fork and merge, instead of following a single path.
 
 **Oct 27** · Yesterday's commits were mostly newbrain. I replaced the Pride theme with a liquid-glass one and made it the default. Brain's agents also got a clubkit tile with its MCP tools, and every LinkedIn comment target now has a working link. Agent runs now commit whatever they changed in the notes, which means I can see what each run did. I also made a stale-token 403 explain itself instead of just saying "forbidden".
-
-**Oct 26** · This week I started clubkit, an agent-first monorepo for running a student club, and added a club config, an integration contract with live, fake and dry-run modes, and an outbox where nothing sends until an exec approves it. I also wrote evals that check whether agents do better with clubkit than without it. In newbrain, Brain's agents now draft LinkedIn posts and read Gmail for internship replies. I also fixed a sync bug where one uncommitted daily list blocked every pull.
 <!-- devlog-posts:end -->
 
 <details>
