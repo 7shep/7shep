@@ -8,11 +8,11 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Oct 30** · Yesterday's only commit was in newbrain, a fix for the server on Windows. A second server could bind to port 4747 while one was already running, so two copies could end up sharing it. I changed it so that no longer happens. It's a small change, but it means the app only ever answers from one process.
+
 **Oct 29** · Yesterday I built voice-controls, where saying "Hey Claude" sends a request to my Brain inbox or to claude -p. Requests now run as headless agents instead of background sessions, and it catches the wake phrase mid-conversation and reopens the mic when it stops sending audio. I also made it standalone, so Brain is now an optional integration, and added an MIT license. In newbrain, the README now documents how voice-controls hooks in.
 
 **Oct 28** · Yesterday I worked on dfa-drawing, a tool that turns strings into automaton art. First came the DFA version, which draws from a string. Then I added an NFA mode with branching brushes and ε-moves, plus subset construction to convert it back to a DFA. The NFA mode matters because a drawing can now fork and merge, instead of following a single path.
-
-**Oct 27** · Yesterday's commits were mostly newbrain. I replaced the Pride theme with a liquid-glass one and made it the default. Brain's agents also got a clubkit tile with its MCP tools, and every LinkedIn comment target now has a working link. Agent runs now commit whatever they changed in the notes, which means I can see what each run did. I also made a stale-token 403 explain itself instead of just saying "forbidden".
 <!-- devlog-posts:end -->
 
 <details>
