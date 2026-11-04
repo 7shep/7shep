@@ -21,11 +21,11 @@
 <!-- devlog:start -->
 #### Wed, Nov 4
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Add probe rules P2 (opaque IDs) and P3 (missing paging hints)
-- Survey 10 third-party MCP servers; P4 detects errors returned as success
-- Don't flag tools whose names use different action verbs
-- Don't pass the user's whole environment to servers
-- <sub>[+5 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
+- Move eval chart to the top
+- Release 1.0.0
+- Add eval results chart
+- Eval results: baseline vs fixed on 15 held-out tasks, descriptions ablation, report
+- <sub>[+14 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
 #### Thu, Oct 29
 **[newbrain](https://github.com/7shep/newbrain)**
