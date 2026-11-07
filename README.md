@@ -19,12 +19,19 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Sat, Nov 7
+**[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Release v1.1.0; run --json stores a hash of the launch command
+- Add install lint (I1) and refuse known-bad releases before launch
+- Reject tools nested over 64 levels on every platform
+
 #### Fri, Nov 6
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
+- CLAUDE.md: describe lock.py
+- Add tool lockfile and diff to catch MCP rug pulls
 - Add CLAUDE.md with dev commands and architecture notes
 - Add GitHub Actions CI for tests and package build
-- Fix two S8 review findings: key/value collisions and console crashes
-- Add S8 hidden-text security lint and save survey tool lists
+- <sub>[+2 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
 #### Wed, Nov 4
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
@@ -56,11 +63,6 @@
 **[dfa-drawing](https://github.com/7shep/dfa-drawing)**
 - NFA mode: branching brushes, ε-moves, and subset construction
 - DFA drawing: automaton art from strings
-
-#### Mon, Oct 26
-**[newbrain](https://github.com/7shep/newbrain)**
-- Morning dev log post on the GitHub profile README <sub>`agents`</sub>
-- Give every comment target a working link <sub>`linkedin`</sub>
 
 <sub>Auto-written from my public commits · updated Nov 07, 2026</sub>
 <!-- devlog:end -->
