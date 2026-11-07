@@ -19,6 +19,13 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Fri, Nov 6
+**[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Add CLAUDE.md with dev commands and architecture notes
+- Add GitHub Actions CI for tests and package build
+- Fix two S8 review findings: key/value collisions and console crashes
+- Add S8 hidden-text security lint and save survey tool lists
+
 #### Wed, Nov 4
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
 - Move eval chart to the top
@@ -55,20 +62,7 @@
 - Morning dev log post on the GitHub profile README <sub>`agents`</sub>
 - Give every comment target a working link <sub>`linkedin`</sub>
 
-#### Sun, Oct 25
-**[newbrain](https://github.com/7shep/newbrain)**
-- Prep LinkedIn drafts posts, comments and profile edits <sub>`agents`</sub>
-- Commit what each agent run changed in the notes <sub>`agents`</sub>
-- A clubkit tile and clubkit's MCP tools for Brain's agents <sub>`clubkit`</sub>
-- Line up role columns next to reply chips <sub>`internships`</sub>
-- <sub>[+4 more](https://github.com/7shep/newbrain/commits?author=7shep)</sub>
-
-**[clubkit](https://github.com/7shep/clubkit)**
-- Add the integration contract: adapters with live, fake, and dry-run modes
-- Add club config: schema, manifest checks, and CLI wiring
-- Reorder TODOS around non-technical execs
-
-<sub>Auto-written from my public commits · updated Nov 04, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 07, 2026</sub>
 <!-- devlog:end -->
 
 </details>
