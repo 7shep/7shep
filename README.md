@@ -8,11 +8,11 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Nov 7** · This week I added a security lint to mcp-linter, S8, which flags hidden text in MCP tool definitions. Two review findings came out of it, key/value collisions and crashes in the console output, and I fixed both. I also saved the tool lists from the survey runs and added a CLAUDE.md with dev commands and architecture notes. GitHub Actions CI now runs the tests and builds the package on every push.
+
 **Nov 5** · Yesterday I shipped mcp-linter 1.0.0, a tool that checks MCP servers for problems. The last stretch added token-weighted scores per tool and per server, a P4 rule that catches errors returned as success, and a fix so it no longer hands a server my whole environment. I also built a fixing proxy and ran baseline against fixed on 15 held-out tasks, with the results chart at the top of the README.
 
 **Nov 4** · Yesterday I built mcp-linter, a tool that connects to an MCP server and checks it for problems. It has static rules for tool definitions, plus probe rules that call tools and flag things like errors returned as success, opaque IDs, and missing paging hints. It also gives token-weighted scores per tool and per server. I ran it against 10 third-party MCP servers to see how it holds up.
-
-**Oct 30** · Yesterday's only commit was in newbrain, a fix for the server on Windows. A second server could bind to port 4747 while one was already running, so two copies could end up sharing it. I changed it so that no longer happens. It's a small change, but it means the app only ever answers from one process.
 <!-- devlog-posts:end -->
 
 <details>
