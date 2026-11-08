@@ -8,11 +8,11 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Nov 8** · Yesterday I released mcp-linter v1.1.0, which adds a tool lockfile and diff so it can catch MCP rug pulls, where a server quietly changes its tool definitions after you've approved them. It also gets an install lint, I1, and refuses known-bad releases before launching them. Tools nested over 64 levels are now rejected on every platform, and `run --json` stores a hash of the launch command.
+
 **Nov 7** · This week I added a security lint to mcp-linter, S8, which flags hidden text in MCP tool definitions. Two review findings came out of it, key/value collisions and crashes in the console output, and I fixed both. I also saved the tool lists from the survey runs and added a CLAUDE.md with dev commands and architecture notes. GitHub Actions CI now runs the tests and builds the package on every push.
 
 **Nov 5** · Yesterday I shipped mcp-linter 1.0.0, a tool that checks MCP servers for problems. The last stretch added token-weighted scores per tool and per server, a P4 rule that catches errors returned as success, and a fix so it no longer hands a server my whole environment. I also built a fixing proxy and ran baseline against fixed on 15 held-out tasks, with the results chart at the top of the README.
-
-**Nov 4** · Yesterday I built mcp-linter, a tool that connects to an MCP server and checks it for problems. It has static rules for tool definitions, plus probe rules that call tools and flag things like errors returned as success, opaque IDs, and missing paging hints. It also gives token-weighted scores per tool and per server. I ran it against 10 third-party MCP servers to see how it holds up.
 <!-- devlog-posts:end -->
 
 <details>
