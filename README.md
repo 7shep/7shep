@@ -19,8 +19,13 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Sun, Nov 8
+**[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Fix CI: ExceptionGroup on Python 3.10, mcp-lint path outside a venv
+
 #### Sat, Nov 7
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Add Streamable HTTP transport, a lock-check Action and PyPI releases
 - Release v1.1.0; run --json stores a hash of the launch command
 - Add install lint (I1) and refuse known-bad releases before launch
 - Reject tools nested over 64 levels on every platform
@@ -59,12 +64,7 @@
 - Add MIT license
 - <sub>[+3 more](https://github.com/7shep/voice-controls/commits?author=7shep)</sub>
 
-#### Tue, Oct 27
-**[dfa-drawing](https://github.com/7shep/dfa-drawing)**
-- NFA mode: branching brushes, ε-moves, and subset construction
-- DFA drawing: automaton art from strings
-
-<sub>Auto-written from my public commits · updated Nov 07, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 08, 2026</sub>
 <!-- devlog:end -->
 
 </details>
