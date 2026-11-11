@@ -50,21 +50,7 @@
 **[newbrain](https://github.com/7shep/newbrain)**
 - Stop a second server sharing port 4747 on Windows <sub>`server`</sub>
 
-#### Wed, Oct 28
-**[newbrain](https://github.com/7shep/newbrain)**
-- Voice controls run headless agents
-- Point voice-controls at Brain through its config.json
-- Voice controls start background agents
-- Ignore voice-controls/ checkout and document it in README
-
-**[voice-controls](https://github.com/7shep/voice-controls)**
-- Reopen the mic when it stops sending audio
-- Run voice requests as headless agents instead of background sessions
-- Catch "Hey Claude" mid-conversation
-- Add MIT license
-- <sub>[+3 more](https://github.com/7shep/voice-controls/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Nov 08, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 11, 2026</sub>
 <!-- devlog:end -->
 
 </details>
