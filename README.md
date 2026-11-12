@@ -19,8 +19,24 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Wed, Nov 11
+**[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Fix benchmark --check failures on Windows and Python 3.10/3.11
+- Fail closed when the tool list never settles before a call
+- Address Codex review: pattern-limited args, delivered denominator
+
+#### Tue, Nov 10
+**[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Score v1 and the draft v2 tagger on the blind holdout
+- Add the tagger holdout: 6 new servers and blind labels
+- Add a runtime trifecta guard to mcp-lint proxy (--guard off|warn|block)
+- Draft a v2 trifecta tagger for data third parties write into
+- <sub>[+3 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
+
 #### Sun, Nov 8
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
+- Add trifecta benchmark mock servers and offline harness
+- Add trifecta benchmark design and tagging prototype
 - Fix CI: ExceptionGroup on Python 3.10, mcp-lint path outside a venv
 
 #### Sat, Nov 7
@@ -46,11 +62,7 @@
 - Eval results: baseline vs fixed on 15 held-out tasks, descriptions ablation, report
 - <sub>[+14 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
-#### Thu, Oct 29
-**[newbrain](https://github.com/7shep/newbrain)**
-- Stop a second server sharing port 4747 on Windows <sub>`server`</sub>
-
-<sub>Auto-written from my public commits · updated Nov 11, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 12, 2026</sub>
 <!-- devlog:end -->
 
 </details>
