@@ -21,9 +21,11 @@
 <!-- devlog:start -->
 #### Wed, Nov 11
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Fix benchmark --check failures on Windows and Python 3.10/3.11
-- Fail closed when the tool list never settles before a call
-- Address Codex review: pattern-limited args, delivered denominator
+- Claude bridge: kill the whole session tree on a trial timeout
+- Local runner: add a hash of the model id to its logdir
+- Add the Claude Code bridge for AgentDojo: plan login, no API key
+- Local runner: actually run trials, one logdir per model
+- <sub>[+9 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
 #### Tue, Nov 10
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
@@ -62,7 +64,7 @@
 - Eval results: baseline vs fixed on 15 held-out tasks, descriptions ablation, report
 - <sub>[+14 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
-<sub>Auto-written from my public commits · updated Nov 12, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 14, 2026</sub>
 <!-- devlog:end -->
 
 </details>
