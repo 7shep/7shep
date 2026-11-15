@@ -19,6 +19,14 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Sat, Nov 14
+**[lucent](https://github.com/7shep/lucent)**
+- Show a mini timeline on the pill, fix paused icon (#15) <sub>`pill`</sub>
+- Hide with SW_HIDE to match the raw show
+- Keep the pill put when it is clicked; show without activating
+- Rebuild the hit region when the pill changes monitor or DPI
+- <sub>[+11 more](https://github.com/7shep/lucent/commits?author=7shep)</sub>
+
 #### Wed, Nov 11
 **[mcp-linter](https://github.com/7shep/mcp-linter)**
 - Claude bridge: kill the whole session tree on a trial timeout
@@ -56,15 +64,7 @@
 - Add GitHub Actions CI for tests and package build
 - <sub>[+2 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
-#### Wed, Nov 4
-**[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Move eval chart to the top
-- Release 1.0.0
-- Add eval results chart
-- Eval results: baseline vs fixed on 15 held-out tasks, descriptions ablation, report
-- <sub>[+14 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Nov 14, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 15, 2026</sub>
 <!-- devlog:end -->
 
 </details>
