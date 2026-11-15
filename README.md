@@ -8,11 +8,11 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Nov 15** · Yesterday I built Lucent, a Dynamic-Island-style now-playing pill for Windows 11. It now has a song timeline in the expanded island and a mini timeline on the pill itself. The window is shaped so clicks pass through the transparent area, and the pill hides or moves when an app goes fullscreen. I also made media startup retry with backoff and moved thumbnail reads onto a worker thread with a timeout.
+
 **Nov 12** · Yesterday I added a runtime trifecta guard to mcp-linter's mcp-lint proxy, with off, warn and block modes, and made it fail closed if the tool list never settles before a call. I also built a holdout of 6 new servers with blind labels to score the trifecta tagger, then drafted a v2 tagger for data third parties write into. The full Haiku 5.5 trifecta run came back a null result, and I recorded it anyway.
 
 **Nov 9** · Yesterday I gave mcp-linter a Streamable HTTP transport, so it can check servers that run over HTTP as well as local ones. I also added a lock-check Action for CI and set up PyPI releases. Then CI broke on Python 3.10 because of ExceptionGroup, and the mcp-lint path failed outside a venv. I fixed both.
-
-**Nov 8** · Yesterday I released mcp-linter v1.1.0, which adds a tool lockfile and diff so it can catch MCP rug pulls, where a server quietly changes its tool definitions after you've approved them. It also gets an install lint, I1, and refuses known-bad releases before launching them. Tools nested over 64 levels are now rejected on every platform, and `run --json` stores a hash of the launch command.
 <!-- devlog-posts:end -->
 
 <details>
