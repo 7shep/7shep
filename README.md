@@ -19,6 +19,14 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Mon, Nov 16
+**[dev-website](https://github.com/7shep/dev-website)**
+- Trim env values and log the OAuth error code on token refresh failure <sub>`spotify`</sub>
+- Restore single-column mobile layout for About and skills; drop gym footnote
+- Live About section, reorder sections, remove contact
+- Generative gallery restyle for hero and projects
+- <sub>[+1 more](https://github.com/7shep/dev-website/commits?author=7shep)</sub>
+
 #### Sat, Nov 14
 **[lucent](https://github.com/7shep/lucent)**
 - Show a mini timeline on the pill, fix paused icon (#15) <sub>`pill`</sub>
@@ -56,15 +64,7 @@
 - Add install lint (I1) and refuse known-bad releases before launch
 - Reject tools nested over 64 levels on every platform
 
-#### Fri, Nov 6
-**[mcp-linter](https://github.com/7shep/mcp-linter)**
-- CLAUDE.md: describe lock.py
-- Add tool lockfile and diff to catch MCP rug pulls
-- Add CLAUDE.md with dev commands and architecture notes
-- Add GitHub Actions CI for tests and package build
-- <sub>[+2 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Nov 15, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 16, 2026</sub>
 <!-- devlog:end -->
 
 </details>
