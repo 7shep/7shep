@@ -8,11 +8,11 @@
 ## 📓 Dev log
 
 <!-- devlog-posts:start -->
+**Nov 17** · Yesterday I gave my personal site, dev-website, a bigger overhaul. I added a live About section, a Clubs section, and a generative gallery look for the hero and projects, and I trimmed the featured projects, reordered sections, and dropped contact. I also fixed the mobile layout so About and skills go back to a single column. Separately, I stopped the Spotify token refresh from choking on stray whitespace in env values.
+
 **Nov 16** · Yesterday I rebuilt my personal site, dev-website, into something more like a generative gallery. The hero and projects got restyled, and I added a Clubs section, trimmed the featured projects, and made the About section live. I also moved the sections around and removed the contact one. On the Spotify side, token refresh now trims env values and logs the OAuth error code when it fails.
 
 **Nov 15** · Yesterday I built Lucent, a Dynamic-Island-style now-playing pill for Windows 11. It now has a song timeline in the expanded island and a mini timeline on the pill itself. The window is shaped so clicks pass through the transparent area, and the pill hides or moves when an app goes fullscreen. I also made media startup retry with backoff and moved thumbnail reads onto a worker thread with a timeout.
-
-**Nov 12** · Yesterday I added a runtime trifecta guard to mcp-linter's mcp-lint proxy, with off, warn and block modes, and made it fail closed if the tool list never settles before a call. I also built a holdout of 6 new servers with blind labels to score the trifecta tagger, then drafted a v2 tagger for data third parties write into. The full Haiku 5.5 trifecta run came back a null result, and I recorded it anyway.
 <!-- devlog-posts:end -->
 
 <details>
