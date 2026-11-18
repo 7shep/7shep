@@ -19,6 +19,10 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Tue, Nov 17
+**[newbrain](https://github.com/7shep/newbrain)**
+- Ignore local youtube/ working folder
+
 #### Mon, Nov 16
 **[dev-website](https://github.com/7shep/dev-website)**
 - Trim env values and log the OAuth error code on token refresh failure <sub>`spotify`</sub>
@@ -57,14 +61,7 @@
 - Add trifecta benchmark design and tagging prototype
 - Fix CI: ExceptionGroup on Python 3.10, mcp-lint path outside a venv
 
-#### Sat, Nov 7
-**[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Add Streamable HTTP transport, a lock-check Action and PyPI releases
-- Release v1.1.0; run --json stores a hash of the launch command
-- Add install lint (I1) and refuse known-bad releases before launch
-- Reject tools nested over 64 levels on every platform
-
-<sub>Auto-written from my public commits · updated Nov 16, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 18, 2026</sub>
 <!-- devlog:end -->
 
 </details>
