@@ -19,6 +19,10 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Thu, Nov 19
+**[voice-controls](https://github.com/7shep/voice-controls)**
+- Say "timed out" instead of reading the command line aloud
+
 #### Tue, Nov 17
 **[newbrain](https://github.com/7shep/newbrain)**
 - Ignore local youtube/ working folder
@@ -55,13 +59,7 @@
 - Draft a v2 trifecta tagger for data third parties write into
 - <sub>[+3 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
-#### Sun, Nov 8
-**[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Add trifecta benchmark mock servers and offline harness
-- Add trifecta benchmark design and tagging prototype
-- Fix CI: ExceptionGroup on Python 3.10, mcp-lint path outside a venv
-
-<sub>Auto-written from my public commits · updated Nov 18, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 19, 2026</sub>
 <!-- devlog:end -->
 
 </details>
