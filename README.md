@@ -19,6 +19,12 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Fri, Nov 20
+**[dev-website](https://github.com/7shep/dev-website)**
+- Add MCP-Linter to selected work
+- No light-theme flash, single-signal pause control, Safari dialog focus
+- Design critique fixes — framed project work, contact, a11y floor
+
 #### Thu, Nov 19
 **[voice-controls](https://github.com/7shep/voice-controls)**
 - Say "timed out" instead of reading the command line aloud
@@ -51,15 +57,7 @@
 - Local runner: actually run trials, one logdir per model
 - <sub>[+9 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
 
-#### Tue, Nov 10
-**[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Score v1 and the draft v2 tagger on the blind holdout
-- Add the tagger holdout: 6 new servers and blind labels
-- Add a runtime trifecta guard to mcp-lint proxy (--guard off|warn|block)
-- Draft a v2 trifecta tagger for data third parties write into
-- <sub>[+3 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Nov 19, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 20, 2026</sub>
 <!-- devlog:end -->
 
 </details>
