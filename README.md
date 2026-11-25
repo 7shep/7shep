@@ -19,6 +19,14 @@
 <summary>Every commit, last two weeks</summary>
 
 <!-- devlog:start -->
+#### Tue, Nov 24
+**[fun](https://github.com/7shep/fun)**
+- Last Call Round screens: shared prompt, pick-up-to-3 voting, results
+- Quip Shots: Last Call Round after round 2 (one prompt for all, 3 votes each, tripled stakes)
+- Rewrite Quip Shots prompts as a spicy college deck (109 prompts)
+- Per-player levels and NHIE blind mode
+- <sub>[+19 more](https://github.com/7shep/fun/commits?author=7shep)</sub>
+
 #### Fri, Nov 20
 **[dev-website](https://github.com/7shep/dev-website)**
 - Add MCP-Linter to selected work
@@ -49,15 +57,7 @@
 - Rebuild the hit region when the pill changes monitor or DPI
 - <sub>[+11 more](https://github.com/7shep/lucent/commits?author=7shep)</sub>
 
-#### Wed, Nov 11
-**[mcp-linter](https://github.com/7shep/mcp-linter)**
-- Claude bridge: kill the whole session tree on a trial timeout
-- Local runner: add a hash of the model id to its logdir
-- Add the Claude Code bridge for AgentDojo: plan login, no API key
-- Local runner: actually run trials, one logdir per model
-- <sub>[+9 more](https://github.com/7shep/mcp-linter/commits?author=7shep)</sub>
-
-<sub>Auto-written from my public commits · updated Nov 20, 2026</sub>
+<sub>Auto-written from my public commits · updated Nov 25, 2026</sub>
 <!-- devlog:end -->
 
 </details>
